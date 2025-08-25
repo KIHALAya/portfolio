@@ -6,7 +6,7 @@ const nextConfig = {
     unoptimized: true,  // since GH pages doesn't support Next.js image optimization
   },
   basePath: '/portfolio',
-  assetPrefix: '/portfolio/',
+  assetPrefix: "/portfolio/",
 };
 
 export default nextConfig;
