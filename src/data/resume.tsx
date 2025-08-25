@@ -8,10 +8,10 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "AI & Software Engineer. I love creating useful things, helping people, and giving back as a community-driven open-source contributor.",
+    "AI Software Engineer. I love creating useful things, helping people, and giving back as a community-driven open-source contributor.",
   summary:
     "I taught myself programming at 15 and have been building ever since. Now, [an engineering student](/#education), [I balance classes with freelancing, side projects, and hackathons](/#hackathons), where I turn ideas into real solutions. Skilled in AI, machine learning, data, and automation, I focus on solving problems with an entrepreneurial mindset—automating the right way, not just for the sake of it. And yes, I’ve mastered time and stress management (exams + projects + clients = daily workout).",
-  avatarUrl: "/portfolio//me.png",
+  avatarUrl: "/portfolio/me.png",
   skills: [
     "React",
     "Next.js",
@@ -126,7 +126,7 @@ export const DATA = {
       company: "Upwork",
       badges: [],
       location: "Remote",
-      title: "Automation & AI Specialist",
+      title: "Automation & AI Specialist - Freelancer",
       href: "",
       logoUrl: "/portfolio/upwork.png",
       start: "May 2021",
