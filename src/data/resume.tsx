@@ -11,7 +11,7 @@ export const DATA = {
     "AI & Software Engineer. I love creating useful things, helping people, and giving back as a community-driven open-source contributor.",
   summary:
     "I taught myself programming at 15 and have been building ever since. Now, [an engineering student](/#education), [I balance classes with freelancing, side projects, and hackathons](/#hackathons), where I turn ideas into real solutions. Skilled in AI, machine learning, data, and automation, I focus on solving problems with an entrepreneurial mindset—automating the right way, not just for the sake of it. And yes, I’ve mastered time and stress management (exams + projects + clients = daily workout).",
-  avatarUrl: "/me.png",
+  avatarUrl: "/portfolio//me.png",
   skills: [
     "React",
     "Next.js",
@@ -87,18 +87,13 @@ export const DATA = {
   badges: [],
   location: "Remote",
   title: "Agentic AI Engineer",
-  logoUrl: "/madagents_logo.png",
+  href: "",
+  logoUrl: "/portfolio/madagents_logo.png",
   start: "June 2025",
   end: "Aug 2025",
-  description: [
-    "Built and deployed AI agents for voice automation, data analysis, and process optimization",
-    "Led architecture using LangGraph, LangChain, and open-source LLMs (e.g., Ollama)",
-    "Developed agent workflows with RAG, document parsing, and database scanning",
-    "Designed AutoML-driven pipelines for predictive analytics and decision support",
-    "Managed infrastructure (Docker, Git, CI/CD) and team of developers",
-    "Drove product strategy, client delivery, and custom solution design",
-    "Presented technical demos and aligned AI solutions with business needs"
-  ]
+  description: 
+    "I built and deployed AI agents for voice automation, data analysis, and process optimization, leading the architecture with LangGraph, LangChain, and open-source LLMs like Ollama. I developed agent workflows using RAG, document parsing, and database scanning, and designed AutoML-driven pipelines for predictive analytics and decision support. Alongside managing infrastructure with Docker, Git, and CI/CD, I also led a team of developers, drove product strategy and client delivery, designed custom solutions, and presented technical demos to align AI capabilities with business needs."
+  
 },
 
     {
@@ -106,67 +101,62 @@ export const DATA = {
       badges: [],
       location: "Santa Clara, CA",
       title: "ML Intern ",
-      logoUrl: "/orange.png",
+      href: "",
+      logoUrl: "/portfolio/orange.png",
       start: "May 2025",
       end: "June 2025",
-      description:[
-        "Design and implement a real-time data pipeline to replace legacy systems.",
-        "Develop ML models for predictive analytics and anomaly detection.",
-        "Optimize data processing workflows using Apache Spark Airflow.",
-        "Automate deployment with Docker Kubernetes for reliability.",
-        "Create Power BI dashboards for actionable business insights.",
-  ]
+      description:
+        "I designed and implemented a real-time data pipeline to replace legacy systems, developing ML models for predictive analytics and anomaly detection. I optimized data processing workflows using Apache Spark and Airflow, automated deployment with Docker and Kubernetes for reliability, and created Power BI dashboards to deliver actionable business insights."
+  
       },
     {
       company: "African Leadership Experience",
       badges: [],
       location: "San Jose, CA",
       title: "Software Engineer Trainee",
-      logoUrl: "/alx_logo.png",
+      href: "",
+      logoUrl: "/portfolio/alx_logo.png",
       start: "Oct 2023",
       end: "Jan 2025",
-      description: [
-    "Write server-side logic in Python, Java, Node.js",
-    "Develop RESTful APIs and services for front-end features",
-    "Collaborate with front-end developers to integrate APIs and ensure smooth data flow",
-    "Design and maintain SQL or NoSQL database schemas (e.g., PostgreSQL, MongoDB)",
-    "Develop user interfaces with HTML, CSS, and JavaScript frameworks such as React",
-    "Document code changes, API specifications, and system configurations",
-    "Perform unit and integration testing to ensure code quality and reliability",
-    "Optimize application performance, both on the client and server sides",
-    "Actively participate in all stages of the project lifecycle, from requirements analysis to deployment"
-  ]
+      description: 
+    "I built a real-time data pipeline to modernize legacy systems, developing ML models for predictive analytics and anomaly detection, optimizing workflows with Apache Spark and Airflow, automating deployment via Docker and Kubernetes, and delivering actionable business insights through Power BI dashboards."
+    
     },
     {
       company: "Upwork",
       badges: [],
       location: "Remote",
       title: "Automation & AI Specialist",
-      logoUrl: "/upwork.png",
+      href: "",
+      logoUrl: "/portfolio/upwork.png",
       start: "May 2021",
       end: "Present",
+      description: ""
       
     },
   ],
   education: [
     {
       school: "Faculty Of Science and Technology",
+      href: "",
       degree: "Engineering Degree of Data & Computer Science",
-      logoUrl: "/fst.png",
+      logoUrl: "/portfolio/fst.png",
       start: "2022",
       end: "2027",
     },
     {
       school: "Stanford University",
+      href: "",
       degree: "AI/ML Applied in Medicine Certificate Program",
-      logoUrl: "/block-s-right.png",
+      logoUrl: "/portfolio/block-s-right.png",
       start: "2025",
       end: "2025",
     },
     {
       school: "African Leadrship Experience",
+      href: "",
       degree: "12-Month Software Engineering Certificate Program",
-      logoUrl: "/alx_logo.png",
+      logoUrl: "/portfolio/alx_logo.png",
       start: "2022",
       end: "2023",
     },
@@ -174,6 +164,7 @@ export const DATA = {
   projects: [
     {
   title: "AI-Driven Industrial Intelligence Agent",
+  href: "",
   dates: "June 2025 - August 2025",
   active: true,
   description:
@@ -189,20 +180,22 @@ export const DATA = {
     "Docker",
     "LLMs"
   ],
+  
   links: [
     {
-          title: "Github",
+          type: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/KIHALAya/LineOps",
         },
   ],
   image: "",
   video:
-    "/lineops.mp4",
+    "/portfolio/lineops.mp4",
 },
 
     {
   title: "AI Voice Agent for Moving Price Discovery",
+  href: "",
   dates: "May 2025",
   active: true,
   description:
@@ -217,18 +210,18 @@ export const DATA = {
   ],
   links: [
     {
-          title: "Github",
+          type: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/KIHALAya/BoxBot.ai",
         },
   ],
   image: "",
-  video: "/boxbot.mp4",
+  video: "/portfolio/boxbot.mp4",
 },
 
     {
   title: "Real-Time Data Streaming System ML Pipeline",
-  href: "https://example.com",
+  href: "",
   dates: "April 2025 - May 2025",
   active: true,
   description:
@@ -245,17 +238,18 @@ export const DATA = {
   ],
   links: [
     {
-          title: "Github",
+          type: "Github",
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/KIHALAya/PFA",
         },
   ],
-  image: "/ML_Pipeline.jpg",
+  image: "/portfolio/ML_Pipeline.jpg",
   video: "",
 },
 
     {
       title: "AI-Powered Community Management Platform",
+      href: "",
       dates: "April 2025 - May 2025",
       active: true,
       description:
@@ -267,11 +261,10 @@ export const DATA = {
         "TailwindCSS",
         "Python",
       ],
-      links: [
-      ],
+      links: [],
       image: "",
       video:
-        "\TaskForce.mp4",
+        "/portfolio/TaskForce.mp4",
     },
   ],
   hackathons: [
@@ -282,7 +275,7 @@ export const DATA = {
       description:
         "Built an AI app addressing a United Nations Sustainable Development Goal—using AI-driven natural language understanding to aid underserved communities with on-demand micro-support services.",
       image:
-        "/MIT.png",
+        "/portfolio/MIT.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -293,7 +286,7 @@ export const DATA = {
       description:
         "Created an AI assistant that understands company data and documents, links key metrics to business needs, and builds solutions for better predictions and process optimization.",
       image:
-        "/teal.jpg",
+        "/portfolio/teal.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [],
     },
@@ -305,7 +298,7 @@ export const DATA = {
         "Developed a voice AI that automatically calls moving companies to gather price quotes, with real-time company search, automated call handling, and a simple demo interface.",
       icon: "public",
       image:
-        "/MIT.png",
+        "/portfolio/MIT.png",
       links: [],
     },
     {
@@ -315,7 +308,7 @@ export const DATA = {
       description:
         "Designed a web app that aggregates social media sentiment on cryptocurrencies and uses ML to forecast short-term price trends, helping users make informed decisions in volatile markets.",
       image:
-        "/bolt.png",
+        "/portfolio/bolt.png",
       links: [
         {
           title: "Github",
@@ -331,7 +324,7 @@ export const DATA = {
       description:
         "Built an AI tutor that ingests class materials (PDFs, text) and generates adaptive quizzes and visual summaries to enhance learning—a socially impactful tool fitting the AIWA’s educational and accessibility theme.",
       image:
-        "/AIWA.png",
+        "/portfolio/AIWA.png",
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
       links: [
