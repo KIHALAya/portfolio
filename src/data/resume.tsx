@@ -310,11 +310,6 @@ export const DATA = {
       image:
         "/portfolio/bolt.png",
       links: [
-        {
-          title: "Github",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
-        },
       ],
     },
     {
@@ -328,11 +323,6 @@ export const DATA = {
       win: "Best Data Hack",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg",
       links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
-        },
       ],
     },
   ],
