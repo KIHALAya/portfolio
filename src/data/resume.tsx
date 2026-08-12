@@ -3,44 +3,17 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Aya KIHAL",
-  initials: "DV",
+  initials: "AK",
   url: "https://dillion.io",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "AI Software Engineer. I love creating useful things, helping people, and giving back as a community-driven open-source contributor.",
   summary:
-    "I taught myself programming at 15 and have been building ever since. Now, [an engineering student](/#education), [I balance classes with freelancing, side projects, and hackathons](/#hackathons), where I turn ideas into real solutions. Skilled in AI, machine learning, data, and automation, I focus on solving problems with an entrepreneurial mindset—automating the right way, not just for the sake of it. And yes, I’ve mastered time and stress management (exams + projects + clients = daily workout).",
+    "AI/ML & Cloud Engineer with a software engineering foundation and hands-on experience across AI systems, cloud infrastructure, and heterogeneous computing. Curious about how AI workloads are built, optimized, and deployed across modern computing platforms.",
   avatarUrl: "/portfolio/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Node.js",
-    "Python",
-    "Java",
-    "Apache Spark",
-     "Apache Kafka",
-      "Apache Airflow",
-       "GPT/LLMs",
-        "NLP",
-         "ASR",
-          "TTS",
-           "Hugging Face",
-            "Ollama",
-             "Power BI",
-              "Docker",
-               "Git",
-                "GitHub",
-                 "Python",
-                   "SQL",
-                    "MongoDB",
-                     "MySQL",
-                      "PostgreSQL",
-                       "LangChain",
-                        "LangGraph",
-                         "n8n",
-                          "Make",
-                           "Zapier"
+   "LLMs", "GPT", "NLP", "ASR", "TTS", "RAG", "PyTorch", "Hugging Face", "Ollama", "LangChain", "LangGraph", "NVIDIA CUDA", "Huawei Ascend", "CANN", "MindSpore", "Model Deployment", "Inference Pipelines", "AI Benchmarking", "VMware vSphere", "ESXi", "vCenter", "Ansible", "Terraform", "HCS", "Docker", "Git", "GitHub", "GitHub Actions", "Kubernetes", "Power BI", "n8n", "Make", "Zapier"
 
   ],
   navbar: [
@@ -66,7 +39,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://x.com/AyaKihal",
+        url: "https://x.com/YuruKoda",
         icon: Icons.x,
 
         navbar: true,
@@ -83,24 +56,24 @@ export const DATA = {
 
   work: [
     {
-  company: "Mad Agents",
+  company: "Huawei Technologies",
   badges: [],
   location: "Remote",
-  title: "Agentic AI Engineer",
+  title: "Research Assistant - AI & Cloud",
   href: "",
-  logoUrl: "/portfolio/madagents_logo.png",
-  start: "June 2025",
-  end: "Aug 2025",
+  logoUrl: "/portfolio/Huawei-Logo.png",
+  start: "April 2026",
+  end: "Ongoing",
   description: 
-    "I built and deployed AI agents for voice automation, data analysis, and process optimization, leading the architecture with LangGraph, LangChain, and open-source LLMs like Ollama. I developed agent workflows using RAG, document parsing, and database scanning, and designed AutoML-driven pipelines for predictive analytics and decision support. Alongside managing infrastructure with Docker, Git, and CI/CD, I also led a team of developers, drove product strategy and client delivery, designed custom solutions, and presented technical demos to align AI capabilities with business needs."
+    "Worked on AI and Cloud technologies, exploring accelerator architectures, AI training and deployment workflows, and modern infrastructure solutions. Built proof-of-concept environments and translated technical research into practical architectures, documentation, and recommendations."
   
 },
 
     {
-      company: "Orange Maroc",
+      company: "Groupe Orange",
       badges: [],
       location: "Santa Clara, CA",
-      title: "ML Intern ",
+      title: "AI/ML Engineering Intern ",
       href: "",
       logoUrl: "/portfolio/orange.png",
       start: "May 2025",
@@ -113,27 +86,16 @@ export const DATA = {
       company: "African Leadership Experience",
       badges: [],
       location: "San Jose, CA",
-      title: "Software Engineer Trainee",
+      title: "Software Engineering Fellow",
       href: "",
       logoUrl: "/portfolio/alx_logo.png",
       start: "Oct 2023",
       end: "Jan 2025",
       description: 
-    "I built a real-time data pipeline to modernize legacy systems, developing ML models for predictive analytics and anomaly detection, optimizing workflows with Apache Spark and Airflow, automating deployment via Docker and Kubernetes, and delivering actionable business insights through Power BI dashboards."
+    "Developed full-stack applications with a strong focus on backend engineering, building REST APIs, database systems, and server-side services using Python, Java, and Node.js. Worked across the development lifecycle, from system design and implementation to testing, integration, and deployment, while collaborating in Agile development teams."
     
     },
-    {
-      company: "Upwork",
-      badges: [],
-      location: "Remote",
-      title: "Automation & AI Specialist - Freelancer",
-      href: "",
-      logoUrl: "/portfolio/upwork.png",
-      start: "May 2021",
-      end: "Present",
-      description: ""
-      
-    },
+  
   ],
   education: [
     {
@@ -142,7 +104,7 @@ export const DATA = {
       degree: "Engineering Degree of Data & Computer Science",
       logoUrl: "/portfolio/fst.png",
       start: "2022",
-      end: "2027",
+      end: "Ongoing",
     },
     {
       school: "Stanford University",
@@ -162,6 +124,60 @@ export const DATA = {
     },
   ],
   projects: [
+
+    {
+  title: "GPU–NPU Cross-Hardware Optimization Framework",
+  href: "",
+  dates: "2026",
+  active: true,
+  description:
+    "Built a cross-hardware framework to assess AI workload migration between NVIDIA and Huawei platforms, evaluating framework portability, training and inference performance, and end-to-end deployment workflows.",
+  technologies: [
+    "PyTorch",
+    "NVIDIA CUDA",
+    "Huawei Ascend",
+    "CANN",
+    "MindSpore",
+    "ModelArts",
+    "Docker"
+  ],
+
+  links: [
+    {
+      type: "Github",
+      icon: <Icons.github className="h-4 w-4" />,
+      href: "https://github.com/KIHALAya/CrossHard",
+    },
+  ],
+  image: "/portfolio/GPU-NPU.jpg",
+  video: "",
+},
+{
+  title: "Enterprise Virtualization & Infrastructure Automation Platform",
+  href: "",
+  dates: "2026",
+  active: true,
+  description:
+    "Built a VMware-based virtualized infrastructure with centralized management through vCenter and automated provisioning using Terraform and Ansible, including virtual networking and workload segmentation.",
+  technologies: [
+    "VMware ESXi",
+    "vCenter",
+    "Terraform",
+    "Ansible",
+    "Python",
+    "Virtualization"
+  ],
+
+  links: [
+    {
+      type: "Github",
+      icon: <Icons.github className="h-4 w-4" />,
+      href: "https://github.com/KIHALAya/Infrai",
+    },
+  ],
+  image: "/portfolio/Cloud-Migration.png",
+  video: "",
+},
     {
   title: "AI-Driven Industrial Intelligence Agent",
   href: "",
