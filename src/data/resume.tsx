@@ -63,7 +63,7 @@ export const DATA = {
   href: "",
   logoUrl: "/portfolio/Huawei-Logo.png",
   start: "April 2026",
-  end: "Ongoing",
+  end: "October 2026",
   description: 
     "Worked on AI and Cloud technologies, exploring accelerator architectures, AI training and deployment workflows, and modern infrastructure solutions. Built proof-of-concept environments and translated technical research into practical architectures, documentation, and recommendations."
   
